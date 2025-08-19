@@ -31,11 +31,13 @@ This project is a smart WhatsApp automation bot that reads incoming messages, de
 
 - Python 3.10+
 - Google Generative AI SDK (`google-generativeai`)
+- Open AI
+- Perplexity
 - `pyautogui`
 - `pyperclip`
-- A valid Gemini API key
+- A valid API key
 
 Install with:
 ```bash
-pip install google-generativeai pyautogui pyperclip
+pip install google-generativeai openai pyautogui pyperclip
 
