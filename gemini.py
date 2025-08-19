@@ -8,7 +8,7 @@ import google.generativeai as genai
 pyautogui.FAILSAFE = False 
 
 # Set your API key
-genai.configure(api_key="AIzaSyAeWxMW_fRlmYZ4g8ybsivGw--PTpf28Bs")
+genai.configure(api_key="API KEY")
 # Initialize the GenAI model
 model = genai.GenerativeModel("gemini-2.5-pro")
 chat = model.start_chat()  # Start once, reuse
@@ -100,5 +100,6 @@ while True:
     except Exception as e:
         print("⚠️ Error:", e)
         time.sleep(3)
+
 
 
