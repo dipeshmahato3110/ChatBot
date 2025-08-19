@@ -15,7 +15,9 @@ This project is a smart WhatsApp automation bot that reads incoming messages, de
 - 🐍 Python
 - 🖱️ PyAutoGUI
 - 📋 Pyperclip
-- 🧠 Google Generative AI (Gemini API)
+- Google Generative AI (Gemini API)
+- Open AI
+- Perplexity
 
 ## ⚙️ How It Works
 
