@@ -4,7 +4,7 @@ import time
 import requests
 
 # Perplexity API details — replace with actual key and endpoint
-api_key = "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"
+api_key = "API KEY"
 endpoint = "https://api.perplexity.ai/chat/completions"
 
 # Step 1: Click the WhatsApp icon
@@ -57,3 +57,4 @@ if copied_text.strip():
 
 else:
     print("Nothing copied! Check if selection worked.")
+
