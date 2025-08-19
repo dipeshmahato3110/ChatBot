@@ -4,7 +4,7 @@ import time
 from openai import OpenAI
 
 client = OpenAI(
-    api_key= ""
+    api_key= "API KEY"
 )
 
 
@@ -41,5 +41,6 @@ completion = client.chat.completions.create(
         {"role": "user","content": copied_text}
     ]
     )
+
 
 response = completion.choices[0].messsage.content
